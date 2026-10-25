@@ -120,10 +120,18 @@ GO
 
 -- 4. Registros Iniciales de Prueba
 INSERT INTO Vehiculos (marca, modelo, foto, precio) VALUES
-('Ford', 'Mustang GT Premium', 'https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=600&auto=format&fit=crop&q=80', 895000),
-('Porsche', '911 Carrera S', 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=80', 2150000),
-('BMW', 'M4 Competition Coupe', 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=80', 1650000),
-('Audi', 'R8 V10 Performance', 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=600&auto=format&fit=crop&q=80', 2890000);
+('Koenigsegg', 'Jesko Absolut', 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=80', 68000000),
+('Bugatti', 'Chiron Pur Sport', 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=600&auto=format&fit=crop&q=80', 76000000),
+('Pagani', 'Huayra Roadster BC', 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?w=600&auto=format&fit=crop&q=80', 70000000),
+('Ferrari', 'LaFerrari Aperta', 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=80', 90000000),
+('Lamborghini', 'Revuelto V12 Hybrid', 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=600&auto=format&fit=crop&q=80', 12500000),
+('Porsche', '911 GT3 RS Weissach', 'https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=600&auto=format&fit=crop&q=80', 6200000),
+('McLaren', '765LT Spider', 'https://images.unsplash.com/photo-1621135802920-133df287f89c?w=600&auto=format&fit=crop&q=80', 9800000),
+('Aston Martin', 'Valkyrie AMR Pro', 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&auto=format&fit=crop&q=80', 64000000),
+('Mercedes-AMG', 'ONE Formula 1 Edition', 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=80', 55000000),
+('Rimac', 'Nevera Time Attack', 'https://images.unsplash.com/photo-1563720223185-11003d516935?w=600&auto=format&fit=crop&q=80', 48000000),
+('Ford', 'GT Liquid Carbon', 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&auto=format&fit=crop&q=80', 21000000),
+('Ferrari', 'SF90 XX Stradale', 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=600&auto=format&fit=crop&q=80', 18000000);
 GO
 ```
 
