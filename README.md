@@ -29,9 +29,6 @@
 
 Aplicación web para la administración del inventario de una **concesionaria de autos deportivos**. Permite visualizar el catálogo en tiempo real con fotografías, marcas y precios, registrar nuevos automóviles, actualizar información existente y eliminar vehículos con persistencia directa en **Microsoft SQL Server**.
 
-> [!NOTE]
-> Este proyecto utiliza exclusivamente **HTML5, Vanilla CSS, JSP (JavaServer Pages) y JSTL**, sin librerías externas de JavaScript en el cliente, respetando estrictamente el enfoque clásico de desarrollo web.
-
 ---
 
 ## 🛠️ Tecnologías y Versiones
@@ -165,6 +162,3 @@ ProyectoUnidad3/
    ```text
    http://localhost:8080/ProyectoUnidad3/
    ```
-
-> [!TIP]
-> Si la lista de autos no aparece en la primera carga, la página redirige automáticamente al servlet `/SvVehiculo` para consultar y poblar la tabla con los datos de SQL Server.
