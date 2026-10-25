@@ -1,6 +1,7 @@
 <%@page import="models.Vehiculo"%>
 <%@page import="java.util.List"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <c:if test="${empty lista}">
     <c:redirect url="SvVehiculo"/>
@@ -110,7 +111,7 @@
                                                 <span class="badge-marca">${veh.getMarca()}</span>
                                             </td>
                                             <td class="col-modelo">${veh.getModelo()}</td>
-                                            <td class="col-precio">$${veh.getPrecio()} MXN</td>
+                                            <td class="col-precio">$<fmt:formatNumber value="${veh.getPrecio()}" pattern="#,###"/> MXN</td>
                                             <td class="col-acciones">
                                                 <a href="SvVehiculo?accion=editar&id=${veh.getId()}" class="btn-editar">Editar</a>
                                                 <form action="SvVehiculo" method="POST" class="form-eliminar">
